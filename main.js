@@ -29,9 +29,9 @@
   Log the result
  */
 var product = returnVal(2, 3, multiplyTwo);
-  document.write(product);
+  document.write("<p>" + "The product is " + product + "</p>");
 
 var quotient = returnVal(10, 5, divideTwo);
-  document.write(quotient);  
+  document.write("<p>" + "The quotient is " + quotient + "</p>");  
 
 
